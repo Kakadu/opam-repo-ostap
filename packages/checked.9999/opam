@@ -8,5 +8,6 @@ build: [
 ]
 
 homepage: "http://oops.math.spbu.ru/projects/checked"
-
+patches: ["popd.patch"]
+depends: ["typeutil"]
 
