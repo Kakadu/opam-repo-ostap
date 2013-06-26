@@ -7,10 +7,7 @@ build: [
 	[make "install"]
 ]
 
-homepage: "http://oops.math.spbu.ru/projects/checked"
+homepage: "http://oops.math.spbu.ru/projects/settings"
 patches: ["popd.patch"]
-depends: [
-	"typeutil" 
-	"ocamlfind"
-]
+depends: ["logger" "typeutil" ]
 

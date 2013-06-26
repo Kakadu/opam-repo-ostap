@@ -7,10 +7,6 @@ build: [
 	[make "install"]
 ]
 
-homepage: "http://oops.math.spbu.ru/projects/checked"
+homepage: "http://oops.math.spbu.ru/projects/logger"
 patches: ["popd.patch"]
-depends: [
-	"typeutil" 
-	"ocamlfind"
-]
-
+depends: [ "camlp5" {= "6.08+ostappatch" } ]
