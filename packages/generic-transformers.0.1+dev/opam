@@ -7,6 +7,9 @@ build: [
 	[make "install"]
 ]
 
+remove: [
+	["ocamlfind" "remove" "GT"]
+]
 homepage: "http://code.google.com/p/generic-transformers"
 
 
