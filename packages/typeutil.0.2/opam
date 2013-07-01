@@ -8,6 +8,9 @@ build: [
 ]
 
 homepage: "http://oops.math.spbu.ru/projects/typeutil"
-patches: ["popd.patch"]
+patches: [
+	"popd.patch"
+	"version.patch"
+]
 depends: ["logger"]
 

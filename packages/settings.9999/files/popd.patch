@@ -1,8 +1,0 @@
---- autogen.sh	(revision 49)
-+++ autogen.sh	(working copy)
-@@ -1,4 +1,4 @@
--#!/bin/sh
-+#!/bin/bash
- 
- set -x
- pushd `dirname $0`

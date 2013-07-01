@@ -8,7 +8,8 @@ build: [
 ]
 
 homepage: "http://oops.math.spbu.ru/projects/ostap"
-patches: [ 
+patches: [
+	"version.patch" 
 	"meta.patch" 
 ]
 depends: [ 
