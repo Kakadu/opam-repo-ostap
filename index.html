@@ -1,1 +1,9 @@
+<pre>
 My GitHub Page
+
+To generate urls.txt we need
+$ foo() { s=`md5sum $1 | awk '{ print $1 }' `; echo "$1 $s 0o644"; }
+$ export -f foo
+$ find . -type f  -not -iwholename '*.git*' | while read file; do foo "$file"; done
+</pre>
+
